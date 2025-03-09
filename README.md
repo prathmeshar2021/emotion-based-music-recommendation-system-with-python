@@ -43,7 +43,7 @@ Tkinter (for GUI development)
 
 Clone the Repository
 
-git clone https://github.com/prathmeshar2021/emotion-based-music-recommendation-system-with-python
+git clone https://github.com/prathmeshar2021/emotion-based-music-recommendation-system-with-python.git
 cd Emotion-Based-Music-Recommendation
 
 Create a Virtual Environment
