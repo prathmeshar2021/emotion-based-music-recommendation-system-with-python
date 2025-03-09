@@ -57,11 +57,9 @@ Install Dependencies
 pip install -r requirements.txt
 
 Add Spotify Credentials
-Create a .env file in the root directory with the following content:
+update following credentials in the file spotipy.py in line number 8
+auth_manager = SpotifyClientCredentials('YOUR_SPOTIPY_CLIENT_ID','YOUR_SPOTIPY_CLIENT_SECRET')
 
-SPOTIPY_CLIENT_ID=your_client_id
-SPOTIPY_CLIENT_SECRET=your_client_secret
-SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
 
 Run the Application
 
@@ -77,16 +75,15 @@ The system will detect your facial expression (e.g., happy, sad, angry) and reco
 
 🎯 Emotion-to-Genre Mapping
 
-Emotion
+(Emotion - Genre)
 
+Happy - energitic/party
 
-Happy
+Sad - mood lifting/light music
 
-Sad
+Angry - calm/ soothing
 
-Angry
-
-Neutral
+Neutral- neutral
 
 
 🧠 Future Enhancements
